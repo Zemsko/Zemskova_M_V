@@ -14,7 +14,7 @@
 	
 	2)customers (ключ customer_id )
 	
-	3)order_statuses (ключ order_name)
+	3)order_statuses (ключ status_name)
 
 	
 Исходную таблицу customers связала с таблицей transaction через ключ (customer_id)
