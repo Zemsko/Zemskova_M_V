@@ -33,19 +33,21 @@
 Правило требует выносить все не ключевые поля, содержимое которых может относиться к нескольким записям таблицы в отдельные таблицы. Вынесем атрибуты brand, product_line, product_class, product_size в отдельную таблицу продуктов с ключом record_id.
 
 Таблица products (ключ record_id) будет содержать таблицы-справочники:  
-	+ brands
-	+ product_lines
-	+ product_classes
-	+ product_size
+	
++ brands
++ product_lines
++ product_classes
++ product_size
 	   
 Таким образом мы получили нормализацию по третьей нормальной форме (3НФ).
 
 В результате преобразований таблица transaction с ключом (transaction_id) имеет поля :
-	+ product_stock_id
-	+ customer_id
-	+ transaction_date
-	+ online_oder
-	+ order_status
+
++ product_stock_id
++ customer_id
++ transaction_date
++ online_oder
++ order_status
 
 Все поля таблицы transaction зависят от одного ключа (transaction_id)
 
