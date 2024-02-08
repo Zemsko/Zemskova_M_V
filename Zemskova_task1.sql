@@ -206,8 +206,8 @@ INSERT INTO transactions(
 			tt.list_price = ps.list_price AND
 			tt.standard_cost = ps.standard_cost
 	LEFT JOIN customers AS cs
-		ON tt.customer_id = cs.customer_id;
-
+		ON tt.customer_id = cs.customer_id
+        WHERE tt.brand IS NOT NULL;
 
 /* Test query to match source data */
 SELECT
