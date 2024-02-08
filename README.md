@@ -68,3 +68,6 @@ transaction -> order_statuses - > status_name
 
 # Структура базы данных 
 ![Zemskova_diagram](https://github.com/Zemsko/Zemskova_M_V/assets/147048091/42ab7914-10ea-4747-ae24-789bbbc539fd)
+
+Данные в таблицу подгружались из файлов trensactions.csv и customers.scv через диалоговое окно DBeaver. Скриншоты прилагаются.
+
