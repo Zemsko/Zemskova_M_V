@@ -36,7 +36,7 @@
 	
 + brands
 + product_lines
-+ product_classes
++ product_class
 + product_size
 	   
 Таким образом мы получили нормализацию по третьей нормальной форме (3НФ).
