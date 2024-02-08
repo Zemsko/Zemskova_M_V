@@ -36,11 +36,12 @@
     
 	transaction -> order_statuses - > status_name	
 
-3)Таблица products_stock с ключом (stock_id) Приведена ко второй нормальной форме (2НФ)
-products_stock по ключу stock_id
 
+3)Таблица products_stock с ключом (stock_id) Приведена ко второй нормальной форме (2НФ)
+products_stock по ключу stock_id.
 Все поля таблицы products_stock зависят от одного ключа (stock_id):
-	+ product_record_id
+	
+ 	+ product_record_id
 	+ list_price,
 	+ standart_cost
 				
