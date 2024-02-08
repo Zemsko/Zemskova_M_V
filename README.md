@@ -11,7 +11,7 @@
 
 1) Таблица transaction, ключ (transaction_id) имеет поля :
 
-	-products_stock_id
+	- products_stock_id
 	-customer_id
 	-transaction_date
 	-online_oder
