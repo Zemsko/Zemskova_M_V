@@ -50,8 +50,9 @@ products_stock по ключу stock_id
 			
 4) Таблица customers (ключ customer_id ). Приведенаа ко второй нормальной форме (2НФ)
 	
-Все поля таблицы customers зависят от одного ключа (customer_id)
-	+ first_name
+Все поля таблицы customers зависят от одного ключа (customer_id):
+
+        + first_name
 	+ last_name
 	+ gender 
 	+ DOB
