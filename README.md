@@ -11,7 +11,7 @@
 который не является ключом, зависит от первичного ключа.
 
 
-1) Таблица transaction, ключ (transaction_id) имеет поля :
+1) Таблица transaction с ключом (transaction_id) имеет поля :
 
 	+ products_stock_id
 	+ customer_id
