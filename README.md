@@ -30,7 +30,7 @@
 
 	transaction -> products_stock_id -> products_stock 
 	
-2)Поле order_statuses (ключ status_name) ссылается на таблицу - справочник order_statuses 
+2) Поле order_statuses (ключ status_name) ссылается на таблицу - справочник order_statuses 
 	
 Создала отдельную таблицу order_statuses. Привела к (3НФ)
     
@@ -39,15 +39,11 @@
 3)Таблица products_stock с ключом (stock_id) Приведена ко второй нормальной форме (2НФ)
 products_stock по ключу stock_id
 
-
-	
-	Все поля таблицы products_stock зависят от одного ключа (stock_id):
-		product_record_id
-		list_price,
-		standart_cost
-	
-
-			
+Все поля таблицы products_stock зависят от одного ключа (stock_id):
+	+ product_record_id
+	+ list_price,
+	+ standart_cost
+				
 4) Таблица customers (ключ customer_id ). Приведенаа ко второй нормальной форме (2НФ). Все поля таблицы customers зависят от одного ключа (customer_id):
 
 	+ first_name
@@ -65,7 +61,6 @@ products_stock по ключу stock_id
 	+ country
 	+ property_valuation
 	
-
 5)Таблица products (ключ record_id),содержит таблицы-справочники:
 	  
 	   6)brands
