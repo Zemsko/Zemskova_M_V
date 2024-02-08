@@ -70,6 +70,9 @@ transaction -> order_statuses - > status_name
 ![Zemskova_diagram](https://github.com/Zemsko/Zemskova_M_V/assets/147048091/42ab7914-10ea-4747-ae24-789bbbc539fd)
 
 Данные в таблицу подгружались из файлов trensactions.csv и customers.scv через диалоговое окно DBeaver. Скриншоты прилагаются.
-https://github.com/Zemsko/Zemskova_M_V/blob/main/Screen1.jpg
-https://github.com/Zemsko/Zemskova_M_V/blob/main/Screen2.jpg
-https://github.com/Zemsko/Zemskova_M_V/blob/main/Screen3.jpg
+![Screen1](https://github.com/Zemsko/Zemskova_M_V/assets/147048091/75f41a80-d337-41eb-bc37-030474e18566)
+![Screen2](https://github.com/Zemsko/Zemskova_M_V/assets/147048091/b4e78017-dd5a-44d5-8493-a27826bc2f00)
+![Screen3](https://github.com/Zemsko/Zemskova_M_V/assets/147048091/a2934c2a-2f91-4d45-b267-d00874d6e7cc)
+
+
+
