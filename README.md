@@ -11,11 +11,11 @@
 
 1) Таблица transaction, ключ (transaction_id) имеет поля :
 
-	- products_stock_id.
-	-customer_id
-	-transaction_date
-	-online_oder
-	-order_status
+	+products_stock_id
+	+customer_id
+	+transaction_date
+	+online_oder
+	+order_status
 
 Все поля таблицы transaction зависят от одного ключа (transaction_id)
 Приведена таблица transaction ко 2НФ.
