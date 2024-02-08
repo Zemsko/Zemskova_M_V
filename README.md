@@ -51,20 +51,20 @@ products_stock по ключу stock_id
 4) Таблица customers (ключ customer_id ). Приведенаа ко второй нормальной форме (2НФ)
 	
 Все поля таблицы customers зависят от одного ключа (customer_id)
-		first_name
-		last_name
-		gender 
-		DOB
-		job_title
-		job_industry_category
-		wealth_segment
-		deceased_indicator
-		owns_car
-		address
-		postcode
-		state
-		country
-		property_valuation
+	+ first_name
+	+ last_name
+	+ gender 
+	+ DOB
+	+ job_title
+	+ job_industry_category
+	+ wealth_segment
+	+ deceased_indicator
+	+ owns_car
+	+ address
+	+ postcode
+	+ state
+	+ country
+	+ property_valuation
 	
 
 5)Таблица products (ключ record_id),содержит таблицы-справочники:
